@@ -6,11 +6,11 @@ Templates are given to commands such as `packer build`, which will take the temp
 
 Template here contains:
 
-builders (required) is an array of one or more objects that defines the builders that will be used to create machine images for this template, and configures each of those builders. For more information on how to define and configure a builder, read the sub-section on configuring builders in templates.
+builders (required) is an array of one or more objects that defines the builders that will be used to create machine images for this template, and configures each of those builders. 
 
-provisioners (optional) is an array of one or more objects that defines the provisioners that will be used to install and configure software for the machines created by each of the builders. If it is not specified, then no provisioners will be run. For more information on how to define and configure a provisioner, read the sub-section on configuring provisioners in templates.
+provisioners (optional) is an array of one or more objects that defines the provisioners that will be used to install and configure software for the machines created by each of the builders. 
 
-variables (optional) is an object of one or more key/value strings that defines user variables contained in the template. If it is not specified, then no variables are defined. For more information on how to define and use user variables, read the sub-section on user variables in templates.
+variables (optional) is an object of one or more key/value strings that defines user variables contained in the template. 
 
 We run the following commands in our yml file to build our AMI
 
