@@ -40,6 +40,10 @@
       "scripts": [
         "./JDKsetup.sh"
       ]
+    },
+    {
+      "type" : "shell",
+      "scripts" : "./CodeDeploySetup.sh"
     }
   ]
 }
