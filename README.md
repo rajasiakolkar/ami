@@ -14,6 +14,8 @@ variables (optional) is an object of one or more key/value strings that defines 
 
 We run the following commands in our yml file to build our AMI
 
+
+
 - name: Download Packer
         run: |
           wget -q https://releases.hashicorp.com/packer/1.4.2/packer_1.4.2_linux_amd64.zip
