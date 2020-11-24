@@ -1,5 +1,6 @@
 #Packer
 
+
 Templates are JSON files that configure the various components of Packer in order to create one or more machine images. Templates are portable, static, and readable and writable by both humans and computers. This has the added benefit of being able to not only create and modify templates by hand, but also write scripts to dynamically create or modify templates.
 
 Templates are given to commands such as `packer build`, which will take the template and actually run the builds within it, producing any resulting machine images.
